@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2>Campus Event Hub</h2>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#events">Events</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#register">Register</a>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <p class="tag">STUDENT EVENT PLATFORM</p>
+        <H1>Discover what's Happening on Campus</H1>
+        <p>Explore Workshops sports, seminars and coding competitions,</p>
+        <a class="btn" href="#events">Explore Events</a> 
+        <a class="btn outline" href="#register">Join an Events</a>
+    </section>
+
+    <section class="events section" id="events">
+        <h2>Upcoming Events</h2>
+        <p class="subtitle">Find an event that interests you.</p>
+
+        <div class="event-grid">
+            <article class="card">
+                <span class="category">Technology</span>
+                <h3>Web Development Workshop</h3>
+                <p> learn the basics of HTML and CSS.</p>
+                <p><b>Date:</b>Oct 20</p>
+                <p><b>Venus:</b>Computer Lab</p>
+
+                <span class="status open">Registration Open</span>
+                <a href="#register" class="btn">Register Now</a>
+            </article>
+
+            <article class="card">
+                <span class="category sports">Sports</span>
+                <h3>Inter-Collage Cricket</h3>
+                <p>Enjoy an exciting Cricket competition.</p>
+                <p><b>Date</b>Oct 22</p>
+                <p><b>Venus</b>Collage Ground</p>
+                <span class="status open">Registration Open</span>
+                <a href="#register" class="btn">Register Now</a>
+            </article>
+
+            <article class="card">
+                <span class="category design">Design</span>
+                <h3>Graphic Design Seminar</h3>
+                <p>Discover creative design techniques.</p>
+                <p><b>Date:</b> Oct 25</p>
+                <p><b>Venus</b>Seminar Hall</p>
+                <span class="status full">Almost Full</span>
+                <a href="#register" class="btn">Register Now</a>
+            </article>
+
+            <article class="card">
+                <span class="category">Technology</span>
+                <h3>Coding Competition</h3>
+                <p>Show your coding and problem-solving skills.</p>
+                <p><b>Date:</b>Oct 28</p>
+                <p><b>Venus:</b> Main Auditorium</p>
+                <span class="status soon">Coming Soon</span>
+                <a href="#register" class="btn" >View Details</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="Registration section" id="Register">
+        <h2>Event Registration</h2>
+        <p class="subtitle">Fill in your details to register.</p>
+
+        <form>
+            <div class="form grid"></div>
+            <label for="name">Full Name</label>
+            <input id="name" type="text" placeholder="Enter your Name" requried>
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div>
+                <label for="student">Student ID</label>
+                <input id="student" type="text" placeholder="Enter student ID" required>
+            </div>
+
+            <div>
+                <label for="event">Select Event</label>
+                <select id="event" required>
+                    <option value="">Choose an event</option>
+                    <option>Web Development Workshope</option>
+                    <option">iner-Collage Cricket</option>
+                    <option>Graphic Design Seminar</option>
+                    <option>Coding Competition</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="type">Participation Type</label>
+                <select id="type" required>
+                    <option value="">Choose Type</option>
+                    <option> individual</option>
+                    <option>Team</option>
+                </select>
+            </Div>
+            </div>
+            <label class="check">
+                <input type="checkbox" required>
+                i agree to the event rules.
+            </label>
+
+            <button type="submit" class="btn">submit Registration</button>
+            <p class="note">Demo form Registration data is not stored.</p>
+        </form>
+    </section>
+
+    <section class="about section" id="about">
+        <h2>About Campus Event Hub</h2>
+        <p>Campus Event HUb helps student discover collage events, explore. activities and find Registration information un one place.</p>
+    </section>
+
+    <footer id="contact">
+        <h3>Campus Event Hub</h3>
+        <p>Discover.Explore.participate.</p>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>
+            <a href="#about">About</a>
+            <a href="#malito:events@collage,edu">Contact us</a>
+        </div>
+        <p>@ 2026 Campus Event Hub. Ali rights reserved.</p>
+    </footer>
+
+</body>
+</html>
